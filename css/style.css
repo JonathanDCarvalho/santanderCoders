@@ -1,0 +1,39 @@
+footer {
+    background-color: #b0c65a; /* Cor de fundo do rodapé */
+    color: white; /* Cor do texto no rodapé */
+    padding: 20px; /* Espaçamento interno do rodapé */
+}
+
+footer .container {
+    display: flex; /* Usa flexbox para layout */
+    align-items: center; /* Alinha verticalmente o conteúdo */
+    justify-content: flex-start; /* Alinha o conteúdo no início (esquerda) */
+    gap: 20px; /* Espaçamento entre os itens do rodapé */
+    flex-wrap: wrap; /* Permite que o conteúdo quebre em múltiplas linhas se necessário */
+}
+
+.footer-logo {
+    width: 150px; /* Define a largura do logo */
+    height: auto; /* Mantém a proporção do logo */
+}
+
+.footer-text {
+    display: flex; /* Usa flexbox para o layout do texto */
+    flex-direction: row; /* Alinha o texto horizontalmente */
+    align-items: center; /* Alinha verticalmente o texto */
+    flex-wrap: wrap; /* Permite que o texto quebre em múltiplas linhas se necessário */
+    gap: 20px; /* Espaçamento entre os itens de texto */
+}
+
+.footer-text p, .footer-text a {
+    margin: 0; /* Remove a margem padrão */
+}
+
+.footer-text a {
+    color: #fff; /* Cor dos links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+.footer-text a:hover {
+    text-decoration: underline; /* Sublinha o link ao passar o mouse */
+}
