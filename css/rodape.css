@@ -1,17 +1,15 @@
 footer {
   background-color: #b0c65a; /* Cor de fundo do rodapé */
   color: white; /* Cor do texto no rodapé */
-  padding: 20px; /* Espaçamento interno do rodapé */
-  margin: 0; /* Remove margens ao redor do rodapé */
-  border: none; /* Remove borda do rodapé */
 }
 
 footer .container {
   display: flex; /* flexbox para layout */
   align-items: center; /* Alinha verticalmente o conteúdo */
   justify-content: flex-start; /* Alinha o conteúdo no início (esquerda) */
-  gap: 20px; /* Espaçamento entre os itens do rodapé */
-  flex-wrap: wrap; /* Permite que o conteúdo quebre em múltiplas linhas se necessário */
+  background-color: #b0c65a; /* Cor de fundo do rodapé */
+  color: white; /* Cor do texto no rodapé */
+
 }
 
 .footer-logo {
@@ -28,7 +26,6 @@ footer .container {
   gap: 20px; /* Espaçamento entre os itens de texto */
 }
 
-.footer-text p,
 .footer-text a {
   margin: 0; /* Remove a margem padrão */
   border: none; /* Remove bordas dos itens de texto */
