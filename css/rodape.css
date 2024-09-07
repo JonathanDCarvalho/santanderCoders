@@ -15,7 +15,7 @@ body, html {
 
 /* Ajusta as imagens */
 .img-container img {
-  width: 150px; /* Define a largura das imagens */
+  width: 50px; /* Define a largura menor das imagens */
   height: auto; /* Mantém a proporção da altura */
 }
 
