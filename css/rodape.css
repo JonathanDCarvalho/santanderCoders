@@ -1,60 +1,60 @@
-/* Remove margens e espaçamentos padrão */
+
 body, html {
   margin: 0;
   padding: 0;
 }
 
-/* Estilos para a div de imagens no rodapé */
+
 .img-container {
-  display: flex; /* Flexbox para o layout */
-  justify-content: center; /* Centraliza as imagens horizontalmente */
-  align-items: center; /* Alinha verticalmente as imagens */
-  gap: 20px; /* Espaçamento entre as imagens */
-  padding: 20px; /* Espaçamento ao redor da div */
-  background-color: #fff; /* Fundo branco para a div de imagens */
+  display: flex; 
+  justify-content: center;
+  align-items: center; 
+  gap: 20px; 
+  padding: 20px; 
+  background-color: #fff; 
 }
 
-/* Ajusta o tamanho das imagens */
+
 .img-container img {
-  width: 32px; /* Define a largura das imagens para 32px */
-  height: auto; /* Mantém a proporção da altura */
+  width: 32px; 
+  height: auto; 
 }
 
-/* Estilos do rodapé */
+
 footer {
-  background-color: #66666e; /* Cor de fundo do rodapé */
-  color: white; /* Cor do texto no rodapé */
-  width: 100%; /* Faz o rodapé ocupar a largura total */
-  padding: 0; /* Remove o padding geral do rodapé */
-  box-sizing: border-box; /* Garante que o padding não afete a largura total */
+  background-color: #66666e; 
+  color: white; 
+  width: 100%; 
+  padding: 0; 
+  box-sizing: border-box; 
 }
 
-/* Centralizar conteúdo no rodapé */
+
 footer .container {
-  display: flex; /* Flexbox para o layout */
-  align-items: center; /* Alinha verticalmente o conteúdo */
-  justify-content: center; /* Centraliza o conteúdo no centro */
-  padding: 20px 0; /* Adiciona espaçamento vertical ao texto */
-  width: 90%; /* Define a largura da div container */
-  margin: 0 auto; /* Centraliza o container */
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+  padding: 20px 0; 
+  width: 90%; 
+  margin: 0 auto; 
 }
 
-/* Estilos do texto do rodapé */
+
 .footer-text {
-  display: flex; /* Flexbox para o layout do texto */
-  align-items: center; /* Centraliza os itens horizontalmente */
-  gap: 10px; /* Adiciona espaçamento entre os itens */
+  display: flex; 
+  align-items: center; 
+  gap: 10px; 
 }
 
 .footer-text p {
-  margin: 0; /* Remove margens padrão dos parágrafos */
+  margin: 0; 
 }
 
 .footer-text a {
-  color: #fff; /* Cor dos links */
-  text-decoration: none; /* Remove o sublinhado dos links */
+  color: #fff; 
+  text-decoration: none; 
 }
 
 .footer-text a:hover {
-  text-decoration: underline; /* Sublinha o link ao passar o mouse */
+  text-decoration: underline; 
 }
