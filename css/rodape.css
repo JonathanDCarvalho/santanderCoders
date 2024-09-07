@@ -1,34 +1,51 @@
+/* Remove margens e espaçamentos padrão */
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos para a seção de imagens */
+.img-container {
+  display: flex; /* Flexbox para o layout */
+  justify-content: center; /* Centraliza as imagens horizontalmente */
+  align-items: center; /* Alinha verticalmente as imagens */
+  gap: 20px; /* Espaçamento entre as imagens */
+  padding: 20px 0; /* Espaçamento vertical */
+}
+
+/* Ajusta as imagens */
+.img-container img {
+  width: 150px; /* Define a largura das imagens */
+  height: auto; /* Mantém a proporção da altura */
+}
+
+/* Estilos do rodapé */
 footer {
   background-color: #b0c65a; /* Cor de fundo do rodapé */
   color: white; /* Cor do texto no rodapé */
+  width: 100%; /* Faz o rodapé ocupar a largura total */
+  padding: 20px 0; /* Adiciona espaçamento vertical */
+  box-sizing: border-box; /* Garante que o padding não afete a largura total */
 }
 
+/* Centralizar conteúdo no rodapé */
 footer .container {
-  display: flex; /* flexbox para layout */
+  display: flex; /* Flexbox para o layout */
   align-items: center; /* Alinha verticalmente o conteúdo */
-  justify-content: flex-start; /* Alinha o conteúdo no início (esquerda) */
-  background-color: #b0c65a; /* Cor de fundo do rodapé */
-  color: white; /* Cor do texto no rodapé */
-
+  justify-content: center; /* Centraliza o conteúdo no centro */
+  width: 90%; /* Define a largura da div container */
+  margin: 0 auto; /* Centraliza o container */
 }
 
-.footer-logo {
-  width: 55px; /* Define a largura do logo */
-  height: auto; /* Mantém a proporção do logo */
-  border: none; /* Remove borda do logo */
-}
-
+/* Estilos do texto do rodapé */
 .footer-text {
-  display: flex; /* Usa flexbox para o layout do texto */
-  flex-direction: row; /* Alinha o texto horizontalmente */
-  align-items: center; /* Alinha verticalmente o texto */
-  flex-wrap: wrap; /* Permite que o texto quebre em múltiplas linhas se necessário */
-  gap: 20px; /* Espaçamento entre os itens de texto */
+  display: flex; /* Flexbox para o layout do texto */
+  align-items: center; /* Centraliza os itens horizontalmente */
+  gap: 10px; /* Adiciona espaçamento entre os itens */
 }
 
-.footer-text a {
-  margin: 0; /* Remove a margem padrão */
-  border: none; /* Remove bordas dos itens de texto */
+.footer-text p {
+  margin: 0; /* Remove margens padrão dos parágrafos */
 }
 
 .footer-text a {
